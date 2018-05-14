@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.testhome</groupId>
+  <artifactId>test1</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>test1 Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <scm>
+   <connection>git@github.com:hamcrest/JavaHamcrest.git</connection>
+   <url>https://github.com/hamcrest/JavaHamcrest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>3.0.1</version>
+    </dependency>    
+    
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-schema-validator</artifactId>
+      <version>3.0.1</version>
+    </dependency>  
+        
+  </dependencies>
+  <build>
+    <finalName>test1</finalName>
+  </build>
+</project>
