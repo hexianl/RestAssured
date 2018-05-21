@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class GetSina {
+public class GetBaiduTest {
 	@BeforeClass
 	public static void beforeClass() {
 		System.out.println("before class only run one time");
@@ -23,7 +23,7 @@ public class GetSina {
 	public void getTencent() {
 		given()
 			.when()
-			.get("https://www.sina.com").prettyPeek()
+			.get("https://www.baidu.com").prettyPeek()
 			.then()
 			.statusCode(200);
 	}
